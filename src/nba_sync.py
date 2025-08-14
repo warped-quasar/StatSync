@@ -11,7 +11,7 @@ from hec_client import SplunkHEC  # thin wrapper around Splunk HTTP Event Collec
 # External configuration values.
 # API_KEY is for balldontlie if your SDK or gateway expects one
 # HEC_URL and HEC_TOKEN point to your Splunk HEC endpoint
-API_KEY   = "5022027f-a695-4901-80b4-62a005449560"
+API_KEY   = 'API_KEY'
 HEC_URL   = "https://localhost:8088"
 HEC_TOKEN = "SPLUNK_HEC_TOKEN"
 INDEX     = "sports"      # default Splunk index for all events
